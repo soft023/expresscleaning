@@ -24,7 +24,7 @@ import { useColorModeValue } from "../components/ui/color-mode";
 export default function About() {
   const sectionBg = useColorModeValue("blue.50", "gray.900");
   const teamImage =
-    "https://images.unsplash.com/photo-1600880212319-46270597371c?auto=format&fit=crop&w=1200&q=80";
+    "https://images.unsplash.com/photo-1556740734-7f9a2b7a0f4d?auto=format&fit=crop&w=1200&q=80";
 
   return (
     <Box>
