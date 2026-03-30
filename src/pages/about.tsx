@@ -55,7 +55,7 @@ export default function About() {
               objectFit="cover"
               h={{ base: "300px", md: "500px" }}
               w="full"
-              fallbackSrc="https://via.placeholder.com/1200x800?text=Express+Cleaning+Team"
+              // fallbackSrc="https://via.placeholder.com/1200x800?text=Express+Cleaning+Team"
             />
           </Box>
 
