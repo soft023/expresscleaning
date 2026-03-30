@@ -14,8 +14,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { FaLeaf, FaBuilding, FaHome, FaTools } from "react-icons/fa";
 
 export default function Home() {
-  const heroImage =
-    "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?q=80&w=2070&auto=format&fit=crop";
+  const heroImage = "/images/homeimage.JPG";
 
   return (
     <Box>

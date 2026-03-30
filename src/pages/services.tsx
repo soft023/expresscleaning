@@ -25,8 +25,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 export default function Services() {
   const sectionBg = useColorModeValue("blue.50", "gray.900");
-  const mainImage =
-    "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200";
+  const mainImage = "/images/serviceimage.JPG";
 
   return (
     <Box>

@@ -25,8 +25,7 @@ export default function About() {
   const sectionBg = useColorModeValue("blue.50", "gray.900");
 
   // Tomorrow we will move this image into your /public folder
-  const teamImage =
-    "https://images.unsplash.com/photo-1581578731522-9b7d718607db?auto=format&fit=crop&w=1200&q=80";
+  const teamImage = "/images/aboutimage.JPG";
 
   return (
     <Box>
