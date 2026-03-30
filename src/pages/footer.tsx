@@ -70,7 +70,7 @@ export default function Footer() {
 
           <Stack gap={4}>
             <Text fontWeight="bold">US Headquarters</Text>
-            <Text fontSize="sm"> Po. Box 28105 Baltimore</Text>
+            <Text fontSize="sm"> PO. Box 28105 Baltimore</Text>
             <Text fontSize="sm">Maryland MD 21239</Text>
             <Text fontSize="sm" fontWeight="bold">
               (443) 856-2347
