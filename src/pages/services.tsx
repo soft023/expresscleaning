@@ -18,7 +18,8 @@ import {
   FaHome,
   FaTools,
   FaHospital,
-  FaLeaf, // Added for the bio-friendly icon
+  FaLeaf,
+  FaBrush, // Added for Carpet Cleaning icon
 } from "react-icons/fa";
 import { useColorModeValue } from "../components/ui/color-mode";
 import { Link as RouterLink } from "react-router-dom";
@@ -36,13 +37,12 @@ export default function Services() {
             <Badge colorPalette="white" px={3}>
               Our Expertise
             </Badge>
-            {/* NEW: Global Bio-Friendly Badge */}
             <Badge
               colorPalette="green"
               px={3}
               variant="solid"
               display="flex"
-              alignItems="center"
+              align="center"
               gap={1}
             >
               <Icon as={FaLeaf} boxSize={3} /> 100% Biodegradable Products
@@ -88,6 +88,20 @@ export default function Services() {
               "Eco-Friendly Restroom Sanitation",
               "Floor Buffing & Care",
               "Biodegradable Surface Cleaning",
+            ]}
+          />
+
+          {/* NEW: Carpet Cleaning Service */}
+          <ServiceCard
+            icon={FaBrush}
+            title="Carpet Cleaning"
+            description="Deep steam cleaning and stain removal using high-performance, eco-friendly extractors."
+            items={[
+              "Deep Fabric Steaming",
+              "Biodegradable Stain Removal",
+              "High-Traffic Area Restoration",
+              "Eco-Safe Deodorizing",
+              "Quick-Dry Tech Solutions",
             ]}
           />
 
