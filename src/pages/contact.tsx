@@ -140,8 +140,8 @@ export default function Contact() {
                 <ContactItem
                   icon={FaPhoneAlt}
                   label="Call"
-                  value="908-266-0345"
-                  href="tel:9082660345"
+                  value="443-856-2347"
+                  href="tel:4438562347"
                 />
                 <ContactItem
                   icon={FaEnvelope}
@@ -185,7 +185,7 @@ export default function Contact() {
               color="gray.500"
               fontWeight="medium"
             >
-              6671 Knottwood Court, Baltimore, MD 21214
+              Po. Box 28105 Baltimore Maryland 21239
             </Text>
           </Box>
         </Stack>

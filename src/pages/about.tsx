@@ -17,14 +17,16 @@ import {
   FaEye,
   FaRocket,
   FaHeart,
-  FaLeaf, // Added for Bio-Friendly
+  FaLeaf,
 } from "react-icons/fa";
 import { useColorModeValue } from "../components/ui/color-mode";
 
 export default function About() {
   const sectionBg = useColorModeValue("blue.50", "gray.900");
+
+  // Tomorrow we will move this image into your /public folder
   const teamImage =
-    "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&w=1200&q=80";
+    "https://images.unsplash.com/photo-1581578731522-9b7d718607db?auto=format&fit=crop&w=1200&q=80";
 
   return (
     <Box>
@@ -38,7 +40,7 @@ export default function About() {
             The Express Cleaning Story
           </Heading>
           <Text fontSize="xl" opacity={0.9}>
-            Setting the gold standard in US janitorial excellence since 2002.
+            A legacy of professional janitorial excellence spanning two decades.
           </Text>
         </Container>
       </Box>
@@ -53,18 +55,25 @@ export default function About() {
               objectFit="cover"
               h={{ base: "300px", md: "500px" }}
               w="full"
+              fallbackSrc="https://via.placeholder.com/1200x800?text=Express+Cleaning+Team"
             />
           </Box>
 
           <Stack gap={6}>
             <Heading size="xl" color="blue.600">
-              Trusted Partners in Neatness
+              From New Jersey to Baltimore
             </Heading>
             <Text fontSize="lg" color="gray.600" _dark={{ color: "gray.400" }}>
-              Founded in 2002, Express Cleaning was built on a simple promise:
-              To treat every facility as if it were our own. Based in Baltimore,
-              we prioritize health by using **100% biodegradable products** that
-              ensure a safe environment for your staff and clients.
+              Founded in **New Jersey in 2002**, Express Cleaning began with a
+              vision to redefine janitorial standards through reliability and
+              hard work. After years of successful operation in the Garden
+              State, we brought our expertise to **Baltimore**, where we
+              continue to treat every facility as if it were our own.
+            </Text>
+            <Text fontSize="lg" color="gray.600" _dark={{ color: "gray.400" }}>
+              Today, we prioritize health by using **100% biodegradable
+              products** that ensure a safe environment for Baltimore’s diverse
+              businesses, from corporate offices to specialized facilities.
             </Text>
             <Box
               p={6}
@@ -79,8 +88,9 @@ export default function About() {
                 color="green.700"
                 _dark={{ color: "green.300" }}
               >
-                "We don't just clean for appearance; we clean for health using
-                environmentally responsible solutions."
+                "We don't just clean for appearance; we clean for health,
+                carrying our 20-year legacy of New Jersey excellence into the
+                heart of Maryland."
               </Text>
             </Box>
           </Stack>
@@ -144,7 +154,6 @@ export default function About() {
             title="Excellence Always"
             desc="We don't believe in 'clean enough.' Our teams are trained to hit every corner, ensuring a pristine finish every single time."
           />
-          {/* UPDATED: Specific Sustainability Value */}
           <ValueCard
             icon={FaLeaf}
             title="Sustainability"

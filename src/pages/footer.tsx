@@ -70,10 +70,10 @@ export default function Footer() {
 
           <Stack gap={4}>
             <Text fontWeight="bold">US Headquarters</Text>
-            <Text fontSize="sm"> 6671 Knottwood Court Baltimore,</Text>
-            <Text fontSize="sm">Maryland MD 21214</Text>
+            <Text fontSize="sm"> Po. Box 28105 Baltimore</Text>
+            <Text fontSize="sm">Maryland MD 21239</Text>
             <Text fontSize="sm" fontWeight="bold">
-              (908) 266-0345
+              (443) 856-2347
             </Text>
           </Stack>
         </SimpleGrid>
