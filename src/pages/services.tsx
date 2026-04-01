@@ -19,7 +19,8 @@ import {
   FaTools,
   FaHospital,
   FaLeaf,
-  FaBrush, // Added for Carpet Cleaning icon
+  FaBrush,
+  FaTint, // Added for Power Washing
 } from "react-icons/fa";
 import { useColorModeValue } from "../components/ui/color-mode";
 import { Link as RouterLink } from "react-router-dom";
@@ -42,7 +43,7 @@ export default function Services() {
               px={3}
               variant="solid"
               display="flex"
-              align="center"
+              alignItems="center"
               gap={1}
             >
               <Icon as={FaLeaf} boxSize={3} /> 100% Biodegradable Products
@@ -91,7 +92,6 @@ export default function Services() {
             ]}
           />
 
-          {/* NEW: Carpet Cleaning Service */}
           <ServiceCard
             icon={FaBrush}
             title="Carpet Cleaning"
@@ -102,6 +102,20 @@ export default function Services() {
               "High-Traffic Area Restoration",
               "Eco-Safe Deodorizing",
               "Quick-Dry Tech Solutions",
+            ]}
+          />
+
+          {/* NEW: Power Washing Service */}
+          <ServiceCard
+            icon={FaTint}
+            title="Power Washing"
+            description="Exterior pressure washing for siding, decks, and walkways using eco-safe detergents."
+            items={[
+              "Siding & Brick Deep Wash",
+              "Driveway & Walkway Clearing",
+              "Deck & Patio Restoration",
+              "Bio-Safe Algae & Mold Removal",
+              "Commercial Exterior Maintenance",
             ]}
           />
 
