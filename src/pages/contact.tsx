@@ -29,7 +29,7 @@ export default function Contact() {
   const cardBg = useColorModeValue("white", "gray.900");
   const sectionBg = useColorModeValue("blue.50", "gray.950");
 
-  // High-quality trust image
+  // High-quality trust imagedf
   //contact Image fixing
   const trustImage = "/images/contact.png";
 
