@@ -30,6 +30,7 @@ export default function Contact() {
   const sectionBg = useColorModeValue("blue.50", "gray.950");
 
   // High-quality trust image
+  //contact Image fixing
   const trustImage = "/images/contact.png";
 
   return (
