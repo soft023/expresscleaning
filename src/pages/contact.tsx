@@ -31,7 +31,7 @@ export default function Contact() {
 
   // High-quality trust imagedf
   //contact Image fixing Two
-  const trustImage = "/images/contactimage.jpg";
+  const trustImage = "/images/contactimage.JPG";
 
   return (
     <Box>
